@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>このファイルの使い方</title>
+</head>
+<body>
+  <h1>このファイルの使い方</h1>
+  <ol>
+    <li>
+      仮想環境を準備します。
+      <ul>
+        <li>私の場合は、"virtualenv"を使用しました</li>
+      </ul>
+    </li>
+    <li>
+      仮想環境を立ち上げ、環境上で、<code>pip install streamlit</code> を入力する
+    </li>
+    <li>
+      <code>streamlit hello</code>と入力し、ページが遷移したら成功です。
+    </li>
+    <li>
+      <code>input_form.py</code>の編集を行います。API先がStability AIのため、APIキーを取得し該当部分を編集します。そのためにアカウント作成から行っていきます。
+      <ol>
+        <li>Stability AIでアカウントを作成します。</li>
+        <li>ユーザーページを開き、アカウントからAPIキーを取得します。</li>
+        <li><code>input_form.py</code>の中にある該当部分にペーストします。</li>
+      </ol>
+    </li>
+    <li>
+      ターミナルで<code>streamlit run input_form.py</code>と入力し、入力画面に遷移したら成功です。
+    </li>
+  </ol>
+</body>
+</html>
